@@ -8,15 +8,24 @@
 
 <head>
 
-    <?php echo base_url("includes/head"); ?>
+    <?php $this->load->view("includes/head"); ?>
 
 </head>
 
 <body class="front-page transparent-header">
+
 <div class="scrollToTop circle"><i class="icon-up-open-big"></i></div>
+
 <div class="page-wrapper">
-    <?php echo base_url("includes/include_script"); ?>
+
+    <?php $this->load->view("includes/header"); ?>
+
+    <?php $this->load->view("includes/footer"); ?>
+
 </div>
+
+<?php $this->load->view("includes/include_script"); ?>
+
 </body>
 
 

@@ -29,7 +29,7 @@
 
 <!-- The Project's core CSS file -->
 <!-- Use css/rtl_style.css for RTL version -->
-<link href="css/style.css" rel="stylesheet">
+<link href="<?php echo base_url("assets"); ?>/css/style.css" rel="stylesheet">
 <!-- The Project's Typography CSS file, includes used fonts -->
 <!-- Used font for body: Roboto -->
 <!-- Used font for headings: Raleway -->
