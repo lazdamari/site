@@ -13,9 +13,10 @@
 </head>
 
 <body class="front-page transparent-header">
-
-<?php echo base_url("includes/include_script"); ?>
-
+<div class="scrollToTop circle"><i class="icon-up-open-big"></i></div>
+<div class="page-wrapper">
+    <?php echo base_url("includes/include_script"); ?>
+</div>
 </body>
 
 
